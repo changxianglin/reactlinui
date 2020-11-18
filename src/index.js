@@ -33,3 +33,10 @@ export class ColoredHeadingOne extends Component {
     return <h1 style={{ color }}>{text}</h1>
   }
 }
+
+import { Button } from './components/button.js'
+
+export {
+  Button,
+}
+

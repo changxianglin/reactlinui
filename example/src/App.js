@@ -12,7 +12,8 @@
 
 import React, { Component } from 'react'
 
-import { ColoredHeadingOne, ColoredHeadingTwo } from 'reactlinui'
+import { ColoredHeadingOne, ColoredHeadingTwo, Button } from 'reactlinui'
+import 'reactlinui/dist/index.css'
 
 export default class App extends Component {
   render() {
@@ -27,6 +28,15 @@ export default class App extends Component {
           text="Colored heading one is working"
           color={'blue'}
         />
+
+        <Button text="这是按钮" />
+        <Button type='primary' text="这是主按钮" />
+        <Button type='dashed' text="这是主按钮" />
+        <Button type='text' text="这是主按钮" />
+        <Button type='link' text="这是主按钮" />
+
+        <Button size='large' text="这是主按钮" />
+        <Button size='small' text="这是主按钮" />
       </div>
     )
   }

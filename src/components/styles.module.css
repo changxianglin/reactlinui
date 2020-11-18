@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  border: 1px solid #999999;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.primary {
+  background-color: aqua;
+  color: #ffffff;
+}
+
+.dashed {
+  border: 1px dashed #999999;
+}
+
+.text {
+  border: none;
+}
+
+.link {
+  border: none;
+  color: aqua;
+}
+
+.large {
+  padding: 8px;
+}
+
+.small {
+  padding: 2px;
+}
